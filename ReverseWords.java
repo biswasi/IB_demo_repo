@@ -4,8 +4,6 @@ import java.util.stream.Collectors;
 
 public class Solution {
     public static String reverseWords(String sentence) {
-
-        // Replace this placeholder return statement with your code
          String[] words = sentence.trim().split("\\s+");
         
         // Reverse the array using streams and join with a single space
